@@ -8,7 +8,7 @@ function handleSubmit(event){
     let dati = Object.fromEntries(formd) ;
     let JsonDati = JSON.stringify(dati) ;
     event.preventDefault();
-    fetch('https://github.com/AxFerry/hostApi/data.json',{
+    fetch('https://github.com/AxFerry/hostApi/blob/main/JsonForData/Data.json',{
          method: 'POST' ,
          headers: {
             'Content-Type' : 'application/json'
